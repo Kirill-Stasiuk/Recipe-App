@@ -28,7 +28,6 @@ This is the backend API service for the **Recipe Book** project. It provides end
 
    ```bash
    git clone <your-repo-url>
-   cd backend
 
 2. Install packages
     ```bash

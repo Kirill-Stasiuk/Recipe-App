@@ -1,0 +1,14 @@
+{
+  "name": "developstoday-test-project",
+  "version": "1.0.0",
+  "description": "Test task for DevelopsToday",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "npm --prefix backend run start:dev",
+    "start:frontend": "npm --prefix frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
